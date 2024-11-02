@@ -3,7 +3,7 @@ Music Player 🎶
 
 🎯 Features-->
 Play/Pause: Start or stop music with a single click.
-Track Navigation: Skip forward and backward through the playlist.
+Track Navigation: Skip forward and backwards through the playlist.
 Responsive Design: Works seamlessly on various devices.
 Volume Control: Adjust the volume for a better listening experience.
 Progress Bar: Visual representation of track progress.
@@ -21,7 +21,7 @@ git clone https://github.com/yourusername/music-player.git
 Open index.html in your browser to start the music player.
 
 🌐 Live Demo
-Check out the live version here :- 
+Check out the live version here:- https://pragyanshu-kashyap.github.io/musicplayer/
 
 🤝 Contributions
 Contributions are welcome! Feel free to open issues or submit pull requests for bug fixes and new features.
