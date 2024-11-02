@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan:400,700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(180deg, #478e90 0%, #60338b 100%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Spartan, sans-serif;
+  font-size: 12px;
+}
+
+.player-container {
+  position: absolute;
+  position: relative;
+  padding: 2px;
+  margin-top: 80px;
+  margin-left: 37vw;
+  height: 500px;
+  width: 400px;
+  background-image: linear-gradient(180deg, #5f983e 0%, #482761 100%);
+  /* background: #7a4646; */
+  border-radius: 20px;
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.img-container {
+  width: 300px;
+  height: 300px;
+  position: static;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+
+.img-container button {
+  width:74px;
+  height:28px;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-width: 1px;
+  border-color: #5941a9;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+}
+.img-container #btnD {
+  background-color: #6b55b5;
+  color: aliceblue;
+}
+
+.img-container #btnL {
+  background-color: #5941a9;
+  color: aliceblue;
+}*/
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 5px 0 0;
+}
+
+/* Progress */
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 40px 20px;
+  height: 4px;
+  width: 90%;
+}
+
+.progress {
+  background: #242323;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.duration-wrapper {
+  position: relative;
+  top: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Controls */
+.player-controls {
+  position: relative;
+  padding: 2px;
+  top: -15px;
+  left: 120px;
+  width: 200px;
+}
+
+.fas {
+  font-size: 30px;
+  color: rgb(129, 129, 129);
+  margin-right: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fas:hover {
+  filter: brightness(80%);
+}
+
+.main-button {
+  font-size: 40px;
+  position: relative;
+  top: 3px;
+}
+/* .myfoot{
+  
+} */
+.nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  height: 22vh;
+  width: 95vw;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(180deg, #408589 0%, #482761 100%);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.logo{
+  text-decoration: none;
+}
+.logo h1{
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 500;
+  background: linear-gradient(to right,rgb(250, 251, 255),rgb(202, 61, 190));
+  color: transparent;
+  -webkit-background-clip: text; /* for stylin of the text Health HUB*/
+  text-decoration: none;
+}
+.footer img {
+  height: 50px;
+  width: 120px;
+}
+.footer .nav {
+  justify-content: center;
+  margin: 20px 0;
+}
+.footer .nav li {
+  margin: 0 10px;
+}
+.footer .nav a {
+  color: #fff;
+  font-weight: 400;
+}
+.footer .social {
+  margin: 20px 0;
+}
+.footer .social a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.footer p {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+/* Media Query: iPhone (Vertical) */
+@media screen and (max-width: 376px) {
+  .player-container {
+    width: 95vw;
+  }
+
+  .img-container {
+    left: 29px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .player-controls {
+    top: -10px;
+    left: 100px;
+  }
+}
